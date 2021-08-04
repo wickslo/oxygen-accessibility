@@ -1,0 +1,24 @@
+.skip-content {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid red;
+    padding: 2rem 4rem;
+    position: center;
+    z-index: 2147483641;
+  }
+
+a.skip-content:active,
+a.skip-content:focus,
+a.skip-content:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
